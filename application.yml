@@ -7,4 +7,6 @@ eureka:
   client:
     serviceUrl:
       defaultZone: http://{username}:{password}@{your-eureka-url}/eureka
-
+  instance:
+    hostname: eurekaserver
+    non-secure-port: 80
